@@ -118,6 +118,10 @@ footer a {
       display: flex;
       flex-flow: row nowrap;
     }
+
+    #site_container{
+      width: 80%;
+    }
     nav a{
       flex: 1 1 30%;
     }
@@ -150,11 +154,24 @@ footer a {
     display: flex;
   }
   #logo{
-    flex: 1 1 33%;
+    margin: 0;
+    font-size: 32px;
+    flex: 1 1 25%;
     display: flex;
   }
   #main_nav{
-    flex: 1 1 20%;
+    padding: 0;
+    flex: 1 1 51%;
+  }
+  #main_content{
+    display: flex;
+  }
+  #main_content div:nth-child(1){
+    flex: 1 1 60%;
+    padding-right: 30px;
   }
 
+  #main_content div:nth-child(2){
+    flex: 1 1 18%;
+  }
 }
